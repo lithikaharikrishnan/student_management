@@ -1,0 +1,80 @@
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+  margin: 0;
+}
+
+body {
+  min-width: 320px;
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: #FFF0E3;
+  color: #713B25;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  transition: 0.2s ease;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  text-align: left;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin-top: 0;
+}
+
+input,
+select,
+textarea {
+  color: #713B25;
+  background: #FFF0E3;
+  border-color: #713B25;
+}
+
+input::placeholder {
+  color: #713B25;
+  opacity: 0.75;
+}
+
+::selection {
+  background: #713B25;
+  color: #FFF0E3;
+}
+
+@media (max-width: 768px) {
+  aside {
+    width: 190px !important;
+    min-width: 190px !important;
+  }
+
+  main {
+    padding: 18px !important;
+  }
+}
